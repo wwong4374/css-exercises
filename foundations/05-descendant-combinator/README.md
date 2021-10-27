@@ -7,7 +7,7 @@ You can use either type or class selectors for this exercise; use whichever you 
 
 The properties you need to add are:
 
-* Only the `p` elements that are descendants of the `div` element should have a yellow background, red text, a font size of 20px, and center aligned.
+* Only the `p` elements that are descendants of the `div` element should have a yiellow background, red text, a font size of 20px, and center aligned.
 
 ## Desired Outcome
 ![desired outcome](./desired-outcome.png)
