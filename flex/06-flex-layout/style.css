@@ -1,10 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+/* Solution */
+.header,
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2px;
+}
+/* Solution */
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  justify-self: center;
+}
+.logo,
+.input,
+.buttons {
+  align-self: center;
+}
+.footer {
+  align-self: flex-end;
+  background-color: #eeeeee;
 }
 
 img {
@@ -16,10 +44,26 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  gap: 13px;
+}
+
+ul > li {
+  display: inline-block;
+  /* You can also add some margins here to make it look prettier */
+  zoom: 1;
+  display: inline;
+  /* this fix is needed for IE7- */
+}
+
+a {
+  color: grey;
+  text-decoration: none;
 }
 
 input {
